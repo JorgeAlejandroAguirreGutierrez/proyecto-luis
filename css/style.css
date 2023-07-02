@@ -116,12 +116,10 @@ input[type=text] {
 }
 
 .custom-img img {
-    width: 100%;
-    height: 100%;
-}
-
-.custom-img:hover img {
     width: 110%;
     height: 110%;
     object-fit: cover;
+}
+.custom-img img:hover {
+    transform: scale(1.4);
 }
