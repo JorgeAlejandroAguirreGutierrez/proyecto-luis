@@ -124,3 +124,7 @@ input[type=text] {
     transform: scale(1.4);
 }
 
+.lista-biography-title{
+    font-weight: 900;
+}
+
