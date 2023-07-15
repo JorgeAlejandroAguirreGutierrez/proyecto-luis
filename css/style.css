@@ -1,126 +1,147 @@
-  
   @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Nunito+Sans:ital,wght@0,200;1,200&display=swap');
 
 
-.background-grey{
-    background-color: #808080;
-}
+  .background-grey {
+      background-color: #808080;
+  }
 
-.background-blue{
-    background-color: #6E7A82FF;
-}
+  .background-blue {
+      background-color: #6E7A82FF;
+  }
 
-.custom-text-center{
-    text-align: center;
-    font-family: Cormorant;
-    color: #2b424c;
-    font-size: medium;
-}
+  .custom-text-center {
+      text-align: center;
+      font-family: Cormorant;
+      color: #2b424c;
+      font-size: medium;
+  }
 
-.custom-ul{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    list-style-type: none;
-    
-}
+  .custom-ul {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      list-style-type: none;
 
-.custom-li{    
-    padding: 15px;
-    display: inline;       
-}
+  }
 
+  .custom-li {
+      padding: 15px;
+      display: inline;
+  }
 
+  .custom-a {
+      color: white;
+      font-family: "Nunito Sans", serif;
+      text-decoration: none;
+  }
 
-.custom-a{
-    color: white;
-    font-family: "Nunito Sans", serif;
-    text-decoration: none;
-}
+  .custom-center {
+      text-align: center;
+  }
 
-.custom-center{
-    text-align: center;
-}
+  .caption-img {
+      font-family: "Nunito Sans", serif;
+      margin-left: 460px;
+  }
 
-.caption-img{
-    font-family: "Nunito Sans", serif;
-    margin-left: 460px;  
-}
+  .tumbnail {
+      height: 200px;
+      width: 200px;
+  }
 
-.tumbnail{
-    height: 200px;
-    width: 200px;
-}
+  .divider {
+      position: relative;
+      border: none;
+      height: 2px;
+      background: white;
 
-.divider{
-    position: relative;  
-    border: none;
-    height: 2px;
-    background: white;
-       
-}
+  }
 
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 1px solid white;
-    background-color: transparent;
-}
+  input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 1px solid white;
+      background-color: transparent;
+  }
 
 
-.btn {
-    border: none;
-    border-radius: 0;
-    font-size: 11px;
-    letter-spacing: .2rem;
-    text-transform: uppercase;
-    border-radius: 30px !important; 
-}
+  .btn {
+      border: none;
+      border-radius: 0;
+      font-size: 11px;
+      letter-spacing: .2rem;
+      text-transform: uppercase;
+      border-radius: 30px !important;
+  }
 
-.btn.btn-primary {
-    border-radius: 30px;
-    background: #808080;
-    color: #fff;
-    -webkit-box-shadow: 0 15px 30px 0 rgba(77, 128, 228, 0.2);
-    box-shadow: 0 15px 30px 0 rgba(77, 128, 228, 0.2); 
-}
-.btn:hover {
-    color: #fff; 
-}
+  .btn.btn-primary {
+      border-radius: 30px;
+      background: #808080;
+      color: #fff;
+      -webkit-box-shadow: 0 15px 30px 0 rgba(77, 128, 228, 0.2);
+      box-shadow: 0 15px 30px 0 rgba(77, 128, 228, 0.2);
+  }
 
-.btn:active, .btn:focus {
-    outline: none;
-    -webkit-box-shadow: none;
-    box-shadow: none; 
-}
+  .btn:hover {
+      color: #fff;
+  }
 
-.custom-modal-header {
-    border-bottom: none;
-}
+  .btn:active,
+  .btn:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+  }
 
-.carousel-caption {
-    opacity: 0;
-    transition: 500ms ease-in-out;
-}
+  .custom-modal-header {
+      border-bottom: none;
+  }
 
-.carousel-item:hover .carousel-caption {
-    opacity: 1;
-}  
+  .carousel-caption {
+      opacity: 0;
+      transition: 500ms ease-in-out;
+  }
 
-.custom-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
+  .carousel-item:hover .carousel-caption {
+      opacity: 1;
+  }
 
-.custom-img img {
-    width: 110%;
-    height: 110%;
-    object-fit: cover;
-}
-.custom-img img:hover {
-    transform: scale(1.4);
-}
+  .custom-img {
+      overflow-clip-margin: content-box;
+      overflow: clip;
+  }
 
+  .custom-img img {
+      width: 110%;
+      height: 110%;
+      object-fit: cover;
+  }
+
+  .custom-img img:hover {
+      transform: scale(1.4);
+  }
+
+  .biography-text-custom {
+      color: white;
+      font-family: "Nunito Sans", serif;
+  }
+
+  .lista-biography-title {
+      font-weight: 900;
+  }
+
+  .fecha-biography-title {
+      font-weight: bolder;
+  }
+
+  .logo span a {
+      font-family: Cormorant, serif;
+      font-weight: 300;
+      font-size: 22px;
+      color: #2b424c;
+      margin-top: 100px;
+      text-decoration: none;
+  }
